@@ -36,6 +36,6 @@ This rule set determines if the total count of zeros in the tape is even or odd.
 $${\displaystyle \Gamma } = \{-, 0, 1\}$$ 
 and '-' represents a blank character. The initial state is `q1`, and the program is expecting the head to start to the left of the chunk of 1s and 0s.
 
-## reverse.txt
+### reverse.txt
 
 This rule set reverses the input tape. The expected input tape is a single, contiguous chunk of 1s and 0s padded by blanks (represented as '-'). Ensure that there is sufficient blank padding to the left of the binary chunk, since the reversal works by copying the character in backwards order before the start of the chunk on the tape. The initial state is `q1`, and the program is expecting the head to start to the left of the chunk of 1s and 0s.
