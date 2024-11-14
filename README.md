@@ -12,6 +12,8 @@ Errors are also raised when no rule matches the current state-symbol combination
 
 ## Usage
 
+run `make all` to compile.
+
 ```
 ./Turing <rule set file path> <tape file path> <init state string> <init head location (index of tape)>
 ```
@@ -22,9 +24,7 @@ For example, run
 ```
 ./Turing rules/reverse.txt tapes/tape_1.txt q1 0
 ```
-
 to reverse a binary string.
-
 
 ## Rule Sets
 
